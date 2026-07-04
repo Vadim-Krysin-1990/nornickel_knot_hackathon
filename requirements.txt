@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+aiofiles                   # нужен StaticFiles (раздача /files) в Starlette
+pydantic>=2.5
+pydantic-settings
+python-dotenv
+neo4j>=5
+qdrant-client
+openai>=1.30
+rapidfuzz
+sentence-transformers      # тянет torch; для быстрого старта можно отложить и грузить с --no-embed
+pymupdf
+python-docx
+python-pptx                # доклады .pptx в реальном корпусе
+openpyxl
+pandas
+requests
+streamlit
+pyvis
+plotly
